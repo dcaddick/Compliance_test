@@ -1,8 +1,8 @@
-site_name: Microsoft Purview Customer Experience Engineering (CxE)
-site_url: https://microsoft.github.io/ComplianceCxE
-repo_url: https://github.com/microsoft/ComplianceCxE
-repo_name: microsoft/ComplianceCxE
-edit_uri: https://github.com/microsoft/ComplianceCxE/edit/public/docs
+site_name: Get Security Done (GSD)
+site_url: https://dcaddick.github.io/Compliance_test
+repo_url: https://github.com/dcaddick/Compliance_test
+repo_name: dcaddick/Compliance_test
+edit_uri: https://github.com/dcaddick/Compliance_test/
 nav:
     - OSS: 
       - One Stop Shop: index.md
@@ -85,14 +85,32 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.tabs
+
+theme:
+  name: material
+  icon: 
+    repo: fontawesome/brands/git-alt
+    admonition:
+      <type>: octicons/alert-16 # material/alert
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 extra:
   analytics:
     provider: custom
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/microsoft/ComplianceCxE/
-    - icon: fontawesome/brands/yammer
-      link: https://aka.ms/MIPC/AskMIPTeam
+      link: https://github.com/dcaddick/Compliance_test
 extra_css:
   - assets/extra.css
   - assets/cookie-consent.css
@@ -121,4 +139,3 @@ markdown_extensions:
 plugins:
   - search
 copyright: <a href="https://microsoft.github.io/ComplianceCxE/privacy/">🔒 Privacy Policy</a> | <a href="javascript:cookieConsent.reset()">🍪 Cookie Settings</a>
-
