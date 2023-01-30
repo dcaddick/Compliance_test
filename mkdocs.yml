@@ -138,4 +138,4 @@ markdown_extensions:
       custom_checkbox: true
 plugins:
   - search
-copyright: <a href="https://microsoft.github.io/ComplianceCxE/privacy/">🔒 Privacy Policy</a> | <a href="javascript:cookieConsent.reset()">🍪 Cookie Settings</a>
+copyright: <a href="https://dcaddick.github.io/Compliance_test/privacy/">🔒 Privacy Policy</a> | <a href="javascript:cookieConsent.reset()">🍪 Cookie Settings</a>
